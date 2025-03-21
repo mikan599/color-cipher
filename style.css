@@ -1,0 +1,72 @@
+/* bodyのスタイル */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #808080; /* 背景色 */
+    color: #fff; /* 文字色 */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* 全体のテキスト揃え */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* アイテム揃え */
+    justify-content: center; /* 中央揃え */
+    justify-content: flex-start; /* 上に揃える */
+    height: 100vh; /* ビューポートの高さに合わせる */
+}
+
+/* 見出し（h1）のスタイル */
+h1 {
+    color: #CCCCCC;
+    font-size: 2.5em;
+    margin-top: 20px;
+    text-align: center; /* 見出しも中央揃え */
+}
+
+/* 段落（p）のスタイル */
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff; /* 段落背景を白に */
+    color: #000; /* 文字色を黒に */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* 左揃えに */
+}
+
+/* ボタンのスタイル */
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* 入力フィールドのスタイル */
+input[type="text"] {
+    padding: 10px;
+    font-size: 1.1em;
+    width: 80%;
+    max-width: 400px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center; /* 入力ボックス内も中央揃え */
+}
+
+/* 結果表示のスタイル */
+#result {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 20px;
+    display: none; /* 初期状態では非表示 */
+}
